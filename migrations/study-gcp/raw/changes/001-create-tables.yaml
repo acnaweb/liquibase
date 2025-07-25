@@ -1,0 +1,13 @@
+databaseChangeLog:
+  - changeSet:
+      id: 001
+      author: antonio
+      changes:
+        - sql:
+            splitStatements: false
+            stripComments: true
+            sql: |
+              CREATE TABLE IF NOT EXISTS `${projectId}.${dataset}.cliente` (
+                id INT64,
+                nome STRING
+              );

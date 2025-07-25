@@ -1,0 +1,11 @@
+databaseChangeLog:
+  - property:
+      name: projectId
+      value: ${projectId}
+  - property:
+      name: dataset
+      value: ${dataset}
+
+  - includeAll:
+      path: changes
+      relativeToChangelogFile: true
