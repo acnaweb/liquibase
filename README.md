@@ -212,6 +212,7 @@ ci -> dev : Status (liquibase status)
 - **Flyway** → mais simples e baseado em SQL.  
 - **Alembic** → para projetos Python.  
 
+---
 
 # Diversos
 
